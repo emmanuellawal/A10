@@ -1,7 +1,7 @@
-/*document.getElementById('form').addEventListener('submit', (e) => {
+document.getElementById('form').addEventListener('submit', (e) => {
     e.preventDefault()
-    Let key = document.getElementById('key').value
-    Let value = document.getElementById('value').value
+    let  key = document.getElementById('key').value
+    let value = document.getElementById('value').value
     if (key == "" || value == "") {
         alert("Please enter all fields")
     }
@@ -10,9 +10,6 @@
     }
 })
 
-function setCookie(key, value, time) {
-
-}*/
 
 function setCookie(cname, cvalue, exdays) {
     const d = new Date();
